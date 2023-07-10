@@ -1,0 +1,13 @@
+[api.default]
+file = "../_default.api.toml"
+
+[api.builder]
+active = true
+service = "init-service"
+api = "init.api.js"
+method = "GET"
+path = "/"
+
+[api.builder.headers]
+Access-Control-Allow-Origin = "*"
+Access-Control-Allow-Credentials = "true"
